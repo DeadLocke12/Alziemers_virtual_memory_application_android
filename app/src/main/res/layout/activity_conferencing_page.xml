@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ConferencingPage"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/conferenceName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:hint="Enter room name"
+        android:textColorHint="#78909C" />
+
+    <Button
+        android:id="@+id/enterConference"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:background="#2596be"
+        android:onClick="onButtonClick"
+        android:text="Join"
+        android:textColor="#212121" />
+
+
+</LinearLayout>
